@@ -20,8 +20,8 @@ const Slider = () => {
     <div className='slider'> 
     <div className="container" style={{transform: `translateX(-${currentSlide *100}vw)`}}>
      {
-      data?.map((img)=>(
-         <img src={img} />
+      data?.map((img ,i)=>(
+         <img src={img} key={i} />
         ))
      }
          
