@@ -2,6 +2,7 @@
     margin: 100px 200px;
 
     .top{
+        margin: 50px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -12,6 +13,7 @@
         p{
             flex: 3;
              color: gray;
+             text-align: justify;
         }
     }
     .bottom{
